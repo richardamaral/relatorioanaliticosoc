@@ -71,7 +71,6 @@ while True:
 
 
             click_button_by_value()
-            time.sleep(1.5)
             entrar = driver.find_element(By.XPATH, '//*[@id="bt_entrar"]').click()  # CLICANDO EM ENTRAR
 
             time.sleep(1.5)
@@ -276,5 +275,5 @@ while True:
                 time.sleep(4.2)
                 continue
         except:
-            print('Algo está ocorrendo !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!')
+            print('full code except--------------------')
             continue
