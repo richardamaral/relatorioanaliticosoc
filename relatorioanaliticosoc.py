@@ -39,7 +39,7 @@ while True:
 
             driver.get("https://sistema.soc.com.br/WebSoc/")
             driver.maximize_window()  # maximizando a janela
-            login = driver.find_element(By.XPATH, '//*[@id="usu"]').send_keys("prorba")  # Colocando o usuario no campo user
+            login = driver.find_element(By.XPATH, '//*[@id="usu"]').send_keys("usuario")  # Colocando o usuario no campo user
             senha = driver.find_element(By.XPATH, '//*[@id="senha"]').send_keys(senha)  # Colocando a senha no campo pass
             time.sleep(0.5)
             # Fazendo a declaração de todos os botões do ID
