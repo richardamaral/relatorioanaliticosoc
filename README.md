@@ -3,7 +3,7 @@
 ![Selenium Version](https://img.shields.io/badge/Selenium-3.141%2B-brightgreen)
 ![PyODBC Version](https://img.shields.io/badge/PyODBC-4.0.39%2B-brightgreen)
 
-Este projeto oferece uma solução automatizada para o processo de manter sincronia dos dados cadastrais dentro do SOC que foram coletados no eSocial.
+Este projeto oferece uma solução automatizada para o processo de criação, elaboração e download de relatórios analíticos dentro do sistema SOC.
 ## Funcionalidades
 
 
