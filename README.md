@@ -13,7 +13,7 @@ Este projeto oferece uma solução automatizada para o processo de criação, el
 
 - **DOWNLOAD E TRATAMENTO DO ARQUIVO**: Utilizando algumas funções de (OS), juntamente com a biblioteca 'zipfile' eu realizo o tratamento dos dados extraindo e renomeando o arquivo para inserção de forma correta no banco de dados.
 
-- **REMOÇÃO DO ARQUIVO E INTEGRAÇÃO COM BANCO DE DADOS**: Após executar o tratamento de arquivos realizo a remoção do arquivo, e em seguida eu insiro a variável que informa o código SOC da empresa já feita em uma outra lista para não repetir novamente as que já tiverem sido feitas, quando eu reiniciar o script.
+- **REMOÇÃO DO ARQUIVO E INTEGRAÇÃO COM BANCO DE DADOS**: Após executar a sequência de tratamento do arquivo, realizo o envio do relatório analítico pro banco de dados s3 e insiro os dados da iteração que tiver sido concluída em uma lista (feitos) para ele não repetir caso o script feche e seja aberto denovo.
 
 ## Como Usar
 
