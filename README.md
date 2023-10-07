@@ -1,4 +1,4 @@
-# ⚙️🔎 FLUXO DE CRIAÇÃO E DOWNLOAD DE RELATÓRIO ANALÍTICO NO SOC COM PROCEDURE SQL 🔎⚙️
+# ⬇️📑 FLUXO DE CRIAÇÃO E DOWNLOAD DE RELATÓRIO ANALÍTICO NO SOC COM PROCEDURE SQL ⬇️📑
 ![Python Version](https://img.shields.io/badge/Python-3.8%2B-brightgreen)
 ![Selenium Version](https://img.shields.io/badge/Selenium-3.141%2B-brightgreen)
 ![PyODBC Version](https://img.shields.io/badge/PyODBC-4.0.39%2B-brightgreen)
