@@ -9,7 +9,7 @@ Este projeto oferece uma solução automatizada para o processo de criação, el
 
 - **INTEGRAÇÃO COM BANCO DE DADOS**: Ao iniciar o código ele tenta conexão com um banco de dados S3 para retornar em uma lista, dados de EMPRESAS que necessitam de um relatório analítico dentro do sistema SOC.
 
-- **AUTENTICAÇÃO SOC e CRIAÇÃO DO RELATÓRIO**: Utilizando o (SELENIUM), me autentico no sistema SOC e entro na empresa utilizando os dados da lista em variáveis para conseguir realizar o relatório analítico.
+- **AUTENTICAÇÃO SOC e CRIAÇÃO DO RELATÓRIO**: Utilizando o (SELENIUM), me autentico no sistema SOC e entro na empresa utilizando os dados da lista em variáveis para conseguir realizar o relatório analítico, de acordo com os dados que me retornam da procedure e após isso ele realiza o download.
 
 - **DOWNLOAD E TRATAMENTO DO ARQUIVO**: Utilizando algumas funções de (OS), juntamente com a biblioteca 'zipfile' eu realizo o tratamento dos dados extraindo e renomeando o arquivo para inserção de forma correta no banco de dados.
 
