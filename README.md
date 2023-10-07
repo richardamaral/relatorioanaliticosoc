@@ -22,6 +22,7 @@ Este projeto oferece uma solução automatizada para o processo de criação, el
    - Instale as bibliotecas necessárias com `pip install selenium pyodbc boto3`.
    - Informe uma chave AWS que retorne uma lista de empresas que vão ser feitas a parte do relatório analítico.
    - Informe o diretório de download na variável correspondente.
+   - Informe os seus dados para autenticação no sistema SOC.
 
 ## Contribuição
 
