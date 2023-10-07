@@ -11,9 +11,9 @@ Este projeto oferece uma solução automatizada para o processo de criação, el
 
 - **AUTENTICAÇÃO SOC e CRIAÇÃO DO RELATÓRIO**: Utilizando o (SELENIUM), me autentico no sistema SOC e entro na empresa utilizando os dados da lista em variáveis para conseguir realizar o relatório analítico, após isso ele realiza o download.
 
-- **DOWNLOAD E TRATAMENTO DO ARQUIVO**: Utilizando algumas funções de (OS), juntamente com a biblioteca 'zipfile' eu realizo o tratamento dos dados extraindo e renomeando o arquivo para inserção de forma correta no banco de dados.
+- **DOWNLOAD E TRATAMENTO DO ARQUIVO**: Utilizando algumas funções de (OS), juntamente com a biblioteca 'zipfile' eu realizo o tratamento do arquivo extraindo e renomeando para inserção de forma correta no banco de dados S3.
 
-- **REMOÇÃO DO ARQUIVO E INTEGRAÇÃO COM BANCO DE DADOS**: Após executar a sequência de tratamentos com o arquivo, realizo o envio do relatório analítico pro banco de dados s3 em seguida removendo do pc. E insiro os dados da iteração que tiver sido concluída em uma lista (feitos) para ele não repetir caso o script feche e seja aberto denovo.
+- **REMOÇÃO DO ARQUIVO E INTEGRAÇÃO COM BANCO DE DADOS**: Após executar a sequência de tratamentos com o arquivo, realizo o envio do relatório analítico pro banco de dados S3 em seguida removendo do pc. E insiro os dados da iteração que tiver sido concluída em uma lista (feitos) para ele não repetir caso o script feche e seja aberto denovo.
 
 ## Como Usar
 
