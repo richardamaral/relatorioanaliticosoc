@@ -13,7 +13,7 @@ Este projeto oferece uma solução automatizada para o processo de criação, el
 
 - **DOWNLOAD E TRATAMENTO DO ARQUIVO**: Utilizando algumas funções de (OS), juntamente com a biblioteca 'zipfile' eu realizo o tratamento dos dados extraindo e renomeando o arquivo para inserção de forma correta no banco de dados.
 
-- **REMOÇÃO DO ARQUIVO E INTEGRAÇÃO COM BANCO DE DADOS**: Após executar a sequência de tratamento do arquivo, realizo o envio do relatório analítico pro banco de dados s3 e insiro os dados da iteração que tiver sido concluída em uma lista (feitos) para ele não repetir caso o script feche e seja aberto denovo.
+- **REMOÇÃO DO ARQUIVO E INTEGRAÇÃO COM BANCO DE DADOS**: Após executar a sequência de tratamentos com o arquivo, realizo o envio do relatório analítico pro banco de dados s3 em seguida removendo do pc. E insiro os dados da iteração que tiver sido concluída em uma lista (feitos) para ele não repetir caso o script feche e seja aberto denovo.
 
 ## Como Usar
 
